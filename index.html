@@ -5,68 +5,232 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- External CSS File -->
-		<link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
 
-	<!-- Bootstrap CSS Link -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-	<title>Capstone 1</title>
-
-	</head>
-		<body>
-
-	<!-- Navbar Section -->
-
-		    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-		      <a class="navbar-brand" href="#">Emil</a>
-		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		        <span class="navbar-toggler-icon"></span>
-		      </button>
-
-		      <div class="collapse navbar-collapse" id="navbarNav">
-		        <ul class="navbar-nav ml-auto">
-		          <li class="nav-item active">
-		            <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
-		          </li>
-		          <li class="nav-item">
-		            <a class="nav-link" href="#">Projects</a>
-		          </li>
-		          <li class="nav-item">
-		            <a class="nav-link" href="#">Tools</a>
-		          </li>
-		        </ul>
-		      </div>
-		    </nav>
-
-				<!-- Content Section -->
-				<div class="col-xl-12 p-0">
-					
-					<!-- Profile Section -->
-					<div class="container-fluid bg-dark text-light min-vh-100 p-0 p-md-5">
-						
-						<div img="img-fluid" src="https://pbs.twimg.com/media/FldwjX0acAIDJbf.jpg" width="250" class="mt-5 ml-sm-2 mt-md-0 rounded-circle">
-
-						<h1>Emil Bautista</h1>
-						<h3>FUll Tummy Developer</h3>
-
-						<div class="row mt-1">
-							<div class="offset-md-2 col-md-8">
-								<p>Emil Bautista is the inventor of nothing. He sits infront of the computer for half a day for work and coding then spends his other time feeding and cleaning after his 9 cats.</p>
-							</div>
-						</div>
-						</div>
-					</div>
-				</div>
-				
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 
 
+	<title>Capstone 1.a</title>
+
+</head>
+<body>
+
+	<!-- Nav Bar Section -->
+
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Welcome!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Tools">Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ContactUs">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- End of Nav Bar -->
+
+    <!-- Landing Section -->
+
+    <section id="landing" class="py-5 parallax-bg section1">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-6 offset-md-3 mt-5">
+	                <img src="https://pbs.twimg.com/media/FldwjX0acAIDJbf.jpg" alt="Image" class="moving-image rounded-circle" width="500">
+	            <div class="row">
+		            <div class="text-center text-light py-5">
+		                <h1>Emil Bautista</h1>
+		                <h2>Full Stack Developer</h2>
+		                <h4>Hello, I'm Emil, and my life is a whirlwind of responsibilities, passions, and exciting challenges. Here's a bit more about me:</h4>
+		            </div>
+	        	</div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
+	<!-- Landing Section End -->
+
+	<!-- Projects Section -->
 
 
 
+    <section id="Projects" class="py-5 container-fluid bg-dark text-light p-5 min-vh-100 parallax-bg section2">
+        <h2 class="mb-3 text-center py-5">My Projects</h2>
 
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <!-- Cards Container -->
+        <div class="row justify-content-center py-5">
+            <!-- Portfolio Card -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card floating-card bg-dark">
+                    <img src="https://shorturl.at/ijny5" class="card-img-top mt-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Welcome to My Digital Haven:</h5>
+                        <p class="card-subtitle text-light mb-2">A Glimpse into My Computer Cafe World</p>
+                        <p class="card-text">I'm Emil, and My Computer Cafe is my passion project. It's where I work and play, serving as both my workplace and gaming sanctuary. Explore the fusion of work and gaming at My Digital Haven! </p>
+                        <a href="#landing" class="btn btn-primary">About Me</a>
+                    </div>
+                </div>
+            </div>
 
-		</body>
-	</html>
+            <!-- My Portfolio Card -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card floating-card bg-dark">
+                    <img src="https://i.imgur.com/JtdUOcG.png" class="card-img-top mt-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title mt-3">My Portfolio</h5>
+                        <p class="card-subtitle text-light mb-2">My First Webfolio</p>
+                        <p class="card-text">Creating my first web portfolio was a blast! I stayed up late, had some ups and downs, but enjoyed it a lot. I played with colors, fonts, and layouts until I got the look I liked. I also got help from online communities and friends. In the end, my portfolio wasn't perfect, but I loved it because it was my creation and it reminded me of the joy in making something new.</p>
+                        <a href="#landing" class="card-link">Link to the Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Tools Section -->
+
+    <section id="Tools" class="py-5 parallax-bg section3">
+	    <div class="container">
+	    	<h2 class="text-center text-light py-5">TOOLS</h2>
+	        <div class="row">
+
+	            <!-- First Row -->
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://cdn.pixabay.com/photo/2016/11/19/22/25/html5-1841458_1280.png" width="100%" alt="HTML" class="icon">
+	            </div>
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://cdn.pixabay.com/photo/2016/11/19/23/00/css3-1841590_1280.png" width="100%" alt="HTML" class="icon">
+	            </div>
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://static.vecteezy.com/system/resources/previews/012/697/298/large_2x/3d-javascript-logo-design-free-png.png" width="110%" alt="HTML" class="icon">
+	            </div>
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-bootstrap-framework-logo-6563486-5453031.png?f=webp" width="120%" alt="HTML" class="icon">
+	            </div>
+	        </div>
+	            
+	        <h2 class="text-center text-light py-5">MERN</h2>
+	        <div class="row">
+	          
+
+	            <!-- Second Row -->
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://i.imgur.com/2bwZuQD.png" width="110%" alt="HTML" class="icon">
+	            </div>
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://i.imgur.com/bPaWVCD.png" width="110%" alt="HTML" class="icon">
+	            </div>
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://i.imgur.com/hgH10G7.png" width="110%" alt="HTML" class="icon">
+	            </div>
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://i.imgur.com/R9RFN6Y.png" width="110%" alt="HTML" class="icon">
+	            </div>
+	        </div>
+
+	        <h2 class="text-center text-light py-5">OTHER TOOLS</h2>
+	        <div class="row">
+
+
+	            <!-- Third Row -->
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://i.imgur.com/zdKOYlS.png" width="100%" alt="HTML" class="icon">
+	            </div>
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="100%" alt="HTML" class="icon">
+	            </div>
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" width="100%" alt="HTML" class="icon">
+	            </div>
+	            <div class="col-md-3 col-lg-3 p-5">	        
+	                   <img src="https://www.svgrepo.com/show/354408/sublimetext-icon.svg" width="100%" alt="HTML" class="icon">
+	            </div>
+	        </div>
+	        </div>	       
+	</section>
+
+
+	<!-- Tools End -->
+
+	<!-- Contact Us Section -->
+
+	<section id="ContactUs" class="py-5 parallax-bg section4">
+		    <div class="container text-light">
+		        <div class="row">
+		            <div class="col-lg-8 mx-auto py-5">
+		                <h2 class="text-center">Contact Us</h2>
+		                <form id="contact-form" method="post" action="process-form.php">
+		                    <div class="form-group">
+		                        <label for="name">Name</label>
+		                        <input type="text" class="form-control" id="name" name="name" required>
+		                    </div>
+		                    <div class="form-group">
+		                        <label for="contact-number">Contact Number</label>
+		                        <input type="tel" class="form-control" id="contact-number" name="contact-number" required>
+		                    </div>
+		                    <div class="form-group">
+		                        <label for="email">Email</label>
+		                        <input type="email" class="form-control" id="email" name="email" required>
+		                    </div>
+		                    <div class="form-group">
+		                        <label for="message">Message</label>
+		                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+		                    </div>
+		                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit</button>
+		                </form>
+		            </div>
+		        </div>
+		    </div>
+	</section>
+
+	<!-- Modal -->
+		<div class="modal fade" id="myModal">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <!-- Modal Header -->
+		            <div class="modal-header">
+		                <h4 class="modal-title">Submission Confirmation</h4>
+		                <button type="button" class="close" data-dismiss="modal">&times;</button>
+		            </div>
+
+		            <!-- Modal body -->
+		            <div class="modal-body">
+		                Thank you for submitting your information.
+		            </div>
+
+		            <!-- Modal footer -->
+		            <div class="modal-footer">
+		                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+
+		<!-- End of Contact Us -->
+
+	<!-- JavaScript and Bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

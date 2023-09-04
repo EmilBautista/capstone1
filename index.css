@@ -1,13 +1,169 @@
-/*CSS Reset*/
+ /*CSS Reset*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-/*Google Font*/
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.navbar {
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 15px;
+}
+
+.navbar-form {
+    margin-right: auto;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+li {
+   position: relative;
+   padding: 0 20px;
+   height: 100%;
+   display: flex;
+}
+
+a {
+   z-index: 1;
+   color: white;
+   text-decoration: none;
+   font-family: 'Poppins',sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   padding: 10px 5px;
+}
+
+li::before {
+   content: "";
+   position: absolute;
+   height: 33.33%;
+   width: 0;
+   background-color: #0D7CFF;
+   right: 0;
+   z-index: 0;
+   top: 33.33%;
+   transition: all 0.5s;
+}
+li::after {
+   content: "";
+   position: absolute;
+   height: 33.33%;
+   width: 0;
+   background-color: #0D7CFF;
+   left: 0;
+   z-index: 0;
+   bottom: 0;
+   transition: all 0.5s;
+}
+a::before {
+   position: absolute;
+   content: "";
+   height: 33.33%;
+   width: 0;
+   background-color: #0D7CFF;
+   bottom: 66.66%;
+   left: 0;
+   transition: all 0.5s;
+}
+
+li:hover:before,
+li:hover::after,
+li:hover a::before{
+   width: 100%;
+}
+
+/* Parallax Background Effect */
+.parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Define different background images for each section */
+.section1 {
+    background-image: url('https://wallpapercave.com/wp/wp2814740.jpg'); /* Replace with your image URL */
+    min-height: 100vh;
+}
+
+.section2 {
+
+    background-image: url('https://shorturl.at/ANQU3'); /* Replace with your image URL */
+    min-height: 100vh;
+}
+.section3 {
+    background-image: url('https://shorturl.at/nrJP1'); /* Replace with your image URL */
+    min-height: 100vh;
+}
+
+.section4 {
+    background-image: url('https://shorturl.at/pBOW8'); /* Replace with your image URL */
+    min-height: 100vh;
+}
+
+/*Landing image effect*/
+.landing-section {
+/*    background-color: #f7f7f7;*/
+    padding: 100px 0;
+}
+
+.moving-image {
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.moving-image:hover {
+    transform: translateX(50px); /* Adjust the value for the desired movement */
+}
+
+/*Tools */
+.tools-section {
+    background-color: #fff; /* Customize the background color */
+    padding: 100px 0;
+}
+
+.floating-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.floating-card:hover {
+    transform: translateY(-10px); /* Adjust the value for the desired floating effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+}
