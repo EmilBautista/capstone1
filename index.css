@@ -101,6 +101,17 @@ li:hover a::before{
    width: 100%;
 }
 
+/* Add a class to the icons for styling */
+.icon {
+    transition: transform 0.1s ease-in-out;
+}
+
+/* Add hover effect */
+.icon:hover {
+    transform: translateY(-40px); /* Adjust the value for the desired float height */
+}
+
+
 /* Parallax Background Effect */
 .parallax-bg {
     background-attachment: fixed;
